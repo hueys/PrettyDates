@@ -1,23 +1,141 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="13A524d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="AViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y1g-0B-N6z">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="2QS-ze-BZf"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="397423935.55447602">
+                                    <!--2013-08-05 19:32:15 +0000-->
+                                </date>
+                                <timeZone key="timeZone" name="America/Los_Angeles">
+                                    <mutableData key="data">
+VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
+y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
+5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
+8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
+AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
+DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
+HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
+KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
+OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
+Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
+VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
+Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
+cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
+f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
+</mutableData>
+                                </timeZone>
+                                <connections>
+                                    <action selector="dateChanged:" destination="2" eventType="valueChanged" id="bba-Ge-u0g"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90g-ZK-z3Y">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ByX-x4-IsR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select a date to see its relative timestamp nicely formatted below" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="byB-yp-gYp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="5zq-oi-rcO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVU-3A-5Lt">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="eeO-Fw-LAs"/>
+                                    <constraint firstAttribute="width" constant="32" id="gch-nf-EW7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="6.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="today:" destination="2" eventType="touchUpInside" id="yB2-Zg-u7U"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xgv-gh-USl">
+                                <connections>
+                                    <action selector="dateAndTime:" destination="2" eventType="valueChanged" id="Jmy-nF-ySh"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date &amp; Time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2h-Wd-DYU">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84313725490196079" green="0.85490196078431369" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="SVU-3A-5Lt" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="5pM-fo-kHg"/>
+                            <constraint firstItem="90g-ZK-z3Y" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5uf-3p-edF"/>
+                            <constraint firstAttribute="trailing" secondItem="byB-yp-gYp" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ASz-8d-boJ"/>
+                            <constraint firstAttribute="trailing" secondItem="90g-ZK-z3Y" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Glw-PD-DkT"/>
+                            <constraint firstItem="byB-yp-gYp" firstAttribute="top" secondItem="Y1g-0B-N6z" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ok8-lG-Cuu"/>
+                            <constraint firstItem="SVU-3A-5Lt" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QpR-bc-irf"/>
+                            <constraint firstItem="A2h-Wd-DYU" firstAttribute="centerY" secondItem="xgv-gh-USl" secondAttribute="centerY" type="default" id="WlJ-na-n0D"/>
+                            <constraint firstAttribute="bottom" secondItem="xgv-gh-USl" secondAttribute="bottom" constant="23" id="XZN-LM-ZXE"/>
+                            <constraint firstItem="90g-ZK-z3Y" firstAttribute="centerX" secondItem="A2h-Wd-DYU" secondAttribute="centerX" type="default" id="aC0-pB-WYx"/>
+                            <constraint firstItem="Y1g-0B-N6z" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="cJ4-EA-CdS"/>
+                            <constraint firstItem="Y1g-0B-N6z" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="d6o-y2-IzI"/>
+                            <constraint firstAttribute="bottom" secondItem="90g-ZK-z3Y" secondAttribute="bottom" constant="206" id="eiG-8e-CF1"/>
+                            <constraint firstAttribute="trailing" secondItem="xgv-gh-USl" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hOW-vo-FX9"/>
+                            <constraint firstItem="byB-yp-gYp" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="vTO-3P-Otu"/>
+                            <constraint firstItem="Y1g-0B-N6z" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="yV3-Ei-Zyh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Y1g-0B-N6z" id="MYD-Ar-bhP"/>
+                        <outlet property="modeSwitch" destination="xgv-gh-USl" id="7vP-BF-RgW"/>
+                        <outlet property="timestampLabel" destination="90g-ZK-z3Y" id="E5k-6f-s8q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="6.png" width="64" height="64"/>
+    </resources>
+    <classes>
+        <class className="AViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="dateAndTime:"/>
+                <relationship kind="action" name="dateChanged:"/>
+                <relationship kind="action" name="today:"/>
+                <relationship kind="outlet" name="datePicker" candidateClass="UIDatePicker"/>
+                <relationship kind="outlet" name="modeSwitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="timestampLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface AViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *timestampLabel;
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+@property (weak, nonatomic) IBOutlet UISwitch *modeSwitch;
+
+- (IBAction)dateChanged:(id)sender;
+- (IBAction)today:(id)sender;
+- (IBAction)dateAndTime:(id)sender;
 
 @end
