@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6D86FF250F0F4AED8D7A550E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7290B1C2BE10417F822D3163 /* libPods.a */; };
+		AA2317DA17B04184005E1454 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2317D917B04184005E1454 /* Icon.png */; };
+		AA2317DC17B04186005E1454 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2317DB17B04186005E1454 /* Icon@2x.png */; };
 		AA899A6617B033F800245E2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA899A6517B033F800245E2C /* UIKit.framework */; };
 		AA899A6817B033F800245E2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA899A6717B033F800245E2C /* Foundation.framework */; };
 		AA899A6A17B033F800245E2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA899A6917B033F800245E2C /* CoreGraphics.framework */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		5A01478535DE4CB79E7AF6E4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		7290B1C2BE10417F822D3163 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2317D917B04184005E1454 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		AA2317DB17B04186005E1454 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		AA899A6217B033F800245E2C /* Pretty Dates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretty Dates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA899A6517B033F800245E2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA899A6717B033F800245E2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,6 +107,8 @@
 		AA899A6C17B033F800245E2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA2317DB17B04186005E1454 /* Icon@2x.png */,
+				AA2317D917B04184005E1454 /* Icon.png */,
 				AA899A8C17B03E5D00245E2C /* 6.png */,
 				5A01478535DE4CB79E7AF6E4 /* Pods.xcconfig */,
 				AA899A6D17B033F800245E2C /* Pretty Dates-Info.plist */,
@@ -176,6 +182,8 @@
 				AA899A7C17B033F800245E2C /* Default-568h@2x.png in Resources */,
 				AA899A7F17B033F800245E2C /* MainStoryboard.storyboard in Resources */,
 				AA899A8D17B03E5E00245E2C /* 6.png in Resources */,
+				AA2317DA17B04184005E1454 /* Icon.png in Resources */,
+				AA2317DC17B04186005E1454 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
