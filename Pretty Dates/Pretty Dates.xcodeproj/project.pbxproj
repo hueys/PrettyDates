@@ -107,17 +107,17 @@
 		AA899A6C17B033F800245E2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA2317DB17B04186005E1454 /* Icon@2x.png */,
-				AA2317D917B04184005E1454 /* Icon.png */,
-				AA899A8C17B03E5D00245E2C /* 6.png */,
-				5A01478535DE4CB79E7AF6E4 /* Pods.xcconfig */,
-				AA899A6D17B033F800245E2C /* Pretty Dates-Info.plist */,
-				AA899A6E17B033F800245E2C /* InfoPlist.strings */,
 				AA899A7117B033F800245E2C /* main.m */,
 				AA899A7317B033F800245E2C /* Pretty Dates-Prefix.pch */,
+				AA899A6D17B033F800245E2C /* Pretty Dates-Info.plist */,
+				AA899A8C17B03E5D00245E2C /* 6.png */,
+				AA899A7B17B033F800245E2C /* Default-568h@2x.png */,
 				AA899A7717B033F800245E2C /* Default.png */,
 				AA899A7917B033F800245E2C /* Default@2x.png */,
-				AA899A7B17B033F800245E2C /* Default-568h@2x.png */,
+				AA2317D917B04184005E1454 /* Icon.png */,
+				AA2317DB17B04186005E1454 /* Icon@2x.png */,
+				5A01478535DE4CB79E7AF6E4 /* Pods.xcconfig */,
+				AA899A6E17B033F800245E2C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

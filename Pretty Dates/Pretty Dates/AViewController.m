@@ -11,6 +11,9 @@
 #import "NSDate+PrettyTimestamp.h"
 
 @interface AViewController ()
+/**
+ *	Update the timestamp label using jonhocking/PrettyTimestamp
+ */
 - (void)updateTimestamp;
 @end
 
@@ -23,6 +26,7 @@
    // Disallow dates in the future
    self.datePicker.maximumDate = [NSDate date];
    
+   // Reflect today's today in the relative timestamp
    [self updateTimestamp];
 }
 
